@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">PR13</string>
+    <string name="sign_in">Sign in</string>
+    <string name="back">С возвращением, Дмитрий!</string>
+    <string name="back1">Каким ты себя ощущаешь?</string>
+    <string name="dima">Дмитрий</string>
+    <string name="nazad">Назад</string>
+</resources>

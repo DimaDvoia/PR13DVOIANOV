@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/_572ff694899e189686bcc5ed6011605"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/LogoView"
+        android:layout_width="385dp"
+        android:layout_height="543dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="80dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/img" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/button1"
+        android:layout_width="305dp"
+        android:layout_height="63dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="432dp"
+        android:backgroundTint="#4E6379"
+        android:text="Продолжить"
+        android:textSize="20dp"
+        app:cornerRadius="12dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/LogoView"/>
+
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/enter1"
+        android:layout_width="305dp"
+        android:layout_height="63dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="432dp"
+        android:backgroundTint="#4E6379"
+        android:onClick="StartNewActivity"
+        android:text="Войти в аккаунт"
+        android:textSize="20dp"
+        android:visibility="invisible"
+        app:cornerRadius="12dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/LogoView">
+
+    </com.google.android.material.button.MaterialButton>
+
+    <ImageView
+        android:id="@+id/HelloText"
+        android:layout_width="292dp"
+        android:layout_height="152dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="308dp"
+        android:visibility="invisible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/img_1" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#4E6379">
+
+    <ImageView
+        android:id="@+id/imageView21"
+        android:layout_width="431dp"
+        android:layout_height="192dp"
+        android:layout_marginTop="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/img_2" />
+
+    <ImageView
+        android:id="@+id/imageView22"
+        android:layout_width="108dp"
+        android:layout_height="81dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="656dp"
+        android:onClick="StartNewActivity"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/img" />
+
+    <ImageView
+        android:id="@+id/imageView23"
+        android:layout_width="59dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="176dp"
+        android:layout_marginTop="664dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/img_433329" />
+
+    <ImageView
+        android:id="@+id/imageView24"
+        android:layout_width="51dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="324dp"
+        android:layout_marginTop="676dp"
+        android:onClick="StartNewActivity1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/_614560341_16_p_ikonki_na_belom_fone_18" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/enter12"
+        android:layout_width="433dp"
+        android:layout_height="92dp"
+        android:layout_marginTop="148dp"
+        android:backgroundTint="#2775d8"
+        android:text="Ludovico Einaudi"
+        android:textSize="20dp"
+        app:cornerRadius="2dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="UnknownId">
+
+    </com.google.android.material.button.MaterialButton>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/enter"
+        android:layout_width="433dp"
+        android:layout_height="92dp"
+        android:layout_marginTop="248dp"
+        android:backgroundTint="#2775d8"
+        android:text="Owl City"
+        android:textSize="20dp"
+        app:cornerRadius="2dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="UnknownId">
+
+    </com.google.android.material.button.MaterialButton>
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="94dp"
+        android:layout_height="89dp"
+        app:layout_constraintStart_toStartOf="@+id/enter12"
+        app:layout_constraintTop_toTopOf="@+id/enter12"
+        app:srcCompat="@drawable/artworks_xzjr0ew5hjieczne_r6bsla_t500x500" />
+
+    <ImageView
+        android:id="@+id/imageView25"
+        android:layout_width="94dp"
+        android:layout_height="89dp"
+        app:layout_constraintStart_toStartOf="@+id/enter12"
+        app:layout_constraintTop_toTopOf="@+id/enter"
+        app:srcCompat="@drawable/owl_city_2" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="70dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="4dp"
+        android:onClick="PlayIT"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/enter12"
+        app:srcCompat="@drawable/_40189" />
+
+    <ImageView
+        android:id="@+id/imageView26"
+        android:layout_width="70dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="4dp"
+        android:onClick="PlayIT2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/enter"
+        app:srcCompat="@drawable/_40189" />
+</androidx.constraintlayout.widget.ConstraintLayout>
